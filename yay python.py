@@ -1,8 +1,12 @@
-arr = [7, 1, 4, 8, 10, 3, 2]
+n = list(map(int,input("Masukkan angka : ").split()))
 
-for i in range(len(arr)):
-    for j in range(i, len(arr)):
-        if arr[i] < arr[j]:
-            arr[i], arr[j] = arr[j], arr[i]
+hitung = [0] * 10
+for i in n:
+    hitung[i] += 1
 
-print(arr)
+for c in hitung:
+    print(c)
+
+Tn(max) = O(1)+O(1)+(O(n)*O(1))+(O(n)*O(1))
+Tn(max) = O(1),O(1),O(n),O(n)
+Tn(max) = O(n)
