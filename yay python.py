@@ -1,3 +1,4 @@
+#No 1
 n = list(map(int,input("Masukkan angka : ").split()))
 
 hitung = [0] * 10
