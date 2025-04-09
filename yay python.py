@@ -34,23 +34,4 @@ Tn(max) : O(1)+O(1)+O(1)+O(1)
 Tn(max) : O(1),O(1),O(1),O(1)
 Tn(max) : O(1)
 
-#No 3
-##def prime(n):
-##    if n<2:
-##        return False
-##    for i in range(2, int(n**0.5)+1):
-##        if n % i == 0:
-##            return False
-##    else:
-##        return True
-## 
-##angka = list(map(int,input('Masukkan bilangan acak : ').split()))
-##x = 0
-##for i in angka :
-##    if prime(i):
-##        x += 1
-##print(x)
-##
-##Tn(max) : O(n)+O(1)+O(1)+O(1)
-##Tn(max) : O(n),O(1),O(1),O(1)
-##Tn(max) : O(n)
+
