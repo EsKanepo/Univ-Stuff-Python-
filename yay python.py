@@ -34,4 +34,12 @@ Tn(max) : O(1)+O(1)+O(1)+O(1)
 Tn(max) : O(1),O(1),O(1),O(1)
 Tn(max) : O(1)
 
+data = input().split()
+numbers = list(map(int, data))
 
+count = [0] * 10
+for num in numbers:
+    count[num] += 1
+
+for c in count:
+    print(c)
