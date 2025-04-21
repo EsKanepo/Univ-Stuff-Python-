@@ -21,25 +21,3 @@
 ##Tn(max) : O(1),O(n),O(1),O(1)
 ##Tn(max) : O(n)
 
-#No 2
-def cari(pattern, text):
-    if pattern in text:
-        return "Ketemu"
-    return "Tidak Ketemu"
-pattern_input = str(input("Pattern : ")).lower()
-text_input = str(input("Text : ")).lower()
-print(cari(pattern_input, text_input))
-
-Tn(max) : O(1)+O(1)+O(1)+O(1)
-Tn(max) : O(1),O(1),O(1),O(1)
-Tn(max) : O(1)
-
-data = input().split()
-numbers = list(map(int, data))
-
-count = [0] * 10
-for num in numbers:
-    count[num] += 1
-
-for c in count:
-    print(c)
